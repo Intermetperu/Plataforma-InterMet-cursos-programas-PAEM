@@ -1,0 +1,47 @@
+*.log
+.DS_Store
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+/.codex
+/.cursor/
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+/auth.json
+/node_modules
+/public/fonts-manifest.dev.json
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+_ide_helper.php
+Homestead.json
+Homestead.yaml
+Thumbs.db
+herramientas/cloudflared.exe
+/storage/app/imagenes-intermet
+
+# ---------------------------------------------------------------
+# InterMet: lo que NO se sube al repositorio
+# ---------------------------------------------------------------
+# Copia de la base de datos (usuarios, pedidos, sesiones)
+/database/*.sql
+# Links de descarga (WeTransfer) de los cursos pagados: privados
+/database/data/links-pago-2026.txt
+# Imágenes subidas desde el panel (cursos y programas): viven en el servidor
+/public/uploads/*
+!/public/uploads/.gitkeep
+# Constancias de pago de los clientes y archivos temporales
+/storage/app/imagenes-intermet
+# Archivos grandes o descargables
+*.zip
+*.rar
+herramientas/cloudflared.exe
+# public/build SÍ se sube: así el hosting no necesita Node/npm
+

@@ -1,0 +1,35 @@
+/* Estilo para el card */
+.custom-card {
+    transition: transform 0.3s ease;
+}
+
+.custom-card:hover {
+    transform: scale(1.05);
+}
+
+/* Estilo para el botón */
+.custom-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #3f9cff, #1988ff);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Mostrar el botón al pasar el mouse sobre el card */
+.custom-card:hover .custom-btn {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+/* Estilo del botón al pasar el mouse */
+.custom-btn:hover {
+    background: linear-gradient(45deg, #2991ff, #0080ff);
+}

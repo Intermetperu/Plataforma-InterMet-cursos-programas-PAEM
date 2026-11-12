@@ -1,0 +1,6 @@
+Lector de texto (OCR) que usa recepción para leer las capturas de pago.
+Tesseract.js (licencia Apache 2.0) · https://github.com/naptha/tesseract.js
+- worker.min.js        : tesseract.js (node_modules/tesseract.js/dist)
+- core/*.wasm.js       : tesseract.js-core (node_modules/tesseract.js-core)
+- lang/spa.traineddata.gz : idioma español (@tesseract.js-data/spa, 4.0.0_best_int)
+Todo funciona desde el propio sistema, sin internet. Si actualizas tesseract.js con npm, vuelve a copiar estos archivos.

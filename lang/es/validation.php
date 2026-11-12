@@ -1,0 +1,51 @@
+<?php
+
+// Mensajes de validación en español
+return [
+    'accepted' => 'Debes aceptar :attribute.',
+    'after' => ':Attribute debe ser una fecha posterior a :date.',
+    'after_or_equal' => ':Attribute debe ser una fecha igual o posterior a :date.',
+    'array' => ':Attribute no es válido.',
+    'confirmed' => 'La confirmación de :attribute no coincide.',
+    'date' => ':Attribute no es una fecha válida.',
+    'date_format' => ':Attribute debe tener el formato :format.',
+    'email' => ':Attribute debe ser un correo válido.',
+    'exists' => ':Attribute seleccionado no existe.',
+    'in' => ':Attribute seleccionado no es válido.',
+    'integer' => ':Attribute debe ser un número entero.',
+    'max' => [
+        'numeric' => ':Attribute no puede ser mayor que :max.',
+        'string' => ':Attribute no puede tener más de :max caracteres.',
+        'array' => ':Attribute no puede tener más de :max elementos.',
+    ],
+    'min' => [
+        'numeric' => ':Attribute debe ser al menos :min.',
+        'string' => ':Attribute debe tener al menos :min caracteres.',
+        'array' => ':Attribute debe tener al menos :min elementos.',
+    ],
+    'numeric' => ':Attribute debe ser un número.',
+    'required' => 'El campo :attribute es obligatorio.',
+    'string' => ':Attribute debe ser texto.',
+    'unique' => ':Attribute ya está registrado.',
+
+    'attributes' => [
+        'name' => 'nombre',
+        'email' => 'correo',
+        'password' => 'contraseña',
+        'llegada' => 'fecha de llegada',
+        'salida' => 'fecha de salida',
+        'tipo' => 'tipo de habitación',
+        'nombre' => 'nombre',
+        'documento' => 'número de documento',
+        'celular' => 'celular',
+        'huespedes' => 'huéspedes',
+        'acepto' => 'las políticas del hotel',
+        'numero' => 'número',
+        'precio' => 'precio',
+        'piso' => 'piso',
+        'estado' => 'estado',
+        'rol' => 'rol',
+        'desde' => 'desde',
+        'hasta' => 'hasta',
+    ],
+];

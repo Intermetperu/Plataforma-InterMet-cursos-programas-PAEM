@@ -1,0 +1,58 @@
+/* Sobrescribe Bootstrap Alert Warning */
+.alert-warning {
+  background-color: #FFEB3B !important;
+  /* Amarillo Material Design */
+  color: #000000 !important;
+  /* Texto oscuro para mejor contraste */
+  border: none !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Sobrescribe Bootstrap Alert Success */
+.alert-success {
+  background-color: #4CAF50 !important;
+  /* Verde Material Design */
+  color: #ffffff !important;
+  /* Texto blanco */
+  border: none !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Sobrescribe Bootstrap Alert Danger */
+.alert-danger {
+  background-color: #F44336 !important;
+  /* Rojo Material Design */
+  color: #ffffff !important;
+  /* Texto blanco */
+  border: none !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Sobrescribe Bootstrap Alert Info */
+.alert-info {
+  background-color: #2196F3 !important;
+  /* Azul Material Design */
+  color: #ffffff !important;
+  /* Texto blanco */
+  border: none !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+
+/* Media query for mobile viewport */
+@media screen and (max-width: 400px) {
+  #paypal-button-container {
+    width: 100%;
+  }
+}
+
+/* Media query for desktop viewport */
+@media screen and (min-width: 400px) {
+  #paypal-button-container {
+    width: 250px;
+  }
+}
